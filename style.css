@@ -1,0 +1,466 @@
+.portfolio-wrap {
+    padding: 30px 0px;
+}
+.portfolio-wrap .portfolio-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-info .image-text {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.portfolio-info .list-type {
+    width: 30%;
+}
+.portfolio-info .image-text .image {
+    background: #c3c1c1;
+    width: 150px;
+    border-radius: 100%;
+    height: 150px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.portfolio-info .image-text .image img {
+    max-width: 100px;
+}
+.portfolio-info .image-text .text {
+    padding-left: 15px;
+}
+.portfolio-info .image-text .text h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 0px;
+}
+.portfolio-info .image-text .text h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #660af0;
+    margin-bottom: 0px;
+}
+.portfolio-info .list-type {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.portfolio-info .list-type .list {
+    text-align: right;
+    width: 80%;
+}
+.portfolio-info .list-type .list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.portfolio-info .list-type .list ul li {
+   padding: 8px;
+   display: block;
+}
+.portfolio-info .list-type .list ul li a{
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  color: #000;
+  font-weight: 500;
+}
+.portfolio-info .list-type .icon-wrap {
+    background-color: #000;
+    padding: 8px 0px;
+    border-radius: 10px;
+}
+.portfolio-info .list-type .icon-wrap ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.portfolio-info .list-type .icon-wrap ul li {
+    display: block;
+    padding: 8px;
+    text-align: center;
+}
+.portfolio-info .list-type .icon-wrap ul li a i{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+.portfolio-wrap .info p {
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+.portfolio-wrap .info {
+    padding-top: 15px;
+}
+.education-details .left-right {
+    display: flex;
+    flex-wrap: wrap;
+}
+.education-details .left-right .left {
+    width: 40%;
+}
+.education-details .left-right .right {
+    width: 60%;
+}
+.education-details .left-right .left .edu-title .title h2 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.education-details .left-right .left .edu-title .title {
+    border-bottom: 2px solid #000;
+}
+.education-details .left-right .left .edu-title .list ul {
+    margin: 0;
+    padding: 0;
+    
+}
+.education-details .left-right .left .edu-title .list ul li {
+    display: block;
+    padding: 8px;
+}
+.education-details .left-right .left .edu-title .list ul li h4 {
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+.education-details .left-right .left .edu-title .list ul li h5 {
+    font-size: 16px;
+    color: #383535;
+    font-weight: 600;
+}
+.education-details .left-right .left .edu-title .list ul li h6 {
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+}
+.tech-skill {
+    padding-top: 10px;
+}
+.tech-skill .title {
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+}
+.tech-skill .title h2 {
+   font-size: 25px;
+   color: #000;
+   font-weight: 700;
+   margin-bottom: 15px;
+}
+.tech-skill .item {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tech-skill .item .first {
+    width: 30%;
+}
+.tech-skill .item .first h4{
+   font-size: 16px;
+   color: #000;
+   font-weight: 500;
+}
+.tech-skill .second-icon-star {
+    width: 70%;
+}
+.checked {
+    color: orange;
+}
+.core {
+    padding-top: 20px;
+}
+.core .title h2 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.core .title {
+    border-bottom: 2px solid #000;
+}
+.core ul {
+    margin: 0;
+    padding: 0;
+    list-style-position: outside;
+}
+.core ul li {
+    display: block;
+    padding: 8px;
+}
+.core ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.education-details .right {
+    padding-left: 30px;
+}
+ul {
+    list-style-type: circle;
+}
+.education-details .right .title {
+    border-bottom: 2px solid #000;
+}
+.education-details .right .title h2 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.education-details .right .list-item ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: square;
+}
+.education-details .right .list-item ul li {
+   display: block;
+   padding: 8px;
+}
+.education-details ul.a {list-style-type: square!important;}
+.education-details .right .list-item ul li a {
+   text-decoration: none;
+   color: #000;
+   font-size: 16px;
+   font-weight: 500;
+}
+#list{ 
+    color: #000; 
+    background: white; 
+    font-size: 30px; 
+    font-weight: 700;
+}
+#list li::before{ 
+    content: "\00BB"; 
+} 
+#list li {
+    list-style: none; 
+    line-height: 20px;
+}
+#list li a {
+    padding-left:8px;
+}
+.career .title h2 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.career .title {
+    border-bottom: 1px solid #000;
+    margin-top: 20px;
+}
+.career .title {
+    margin-bottom: 20px;
+}
+.career .box1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.career .box1 .left {
+    width: 40%;
+}
+.career .box1 .right {
+    width: 60%;
+}
+.career .box1 .left {
+    width: 30%;
+    justify-content: flex-end;
+    display: flex;
+    margin-bottom: 20px;
+}
+.career .box1 .left .box {
+    background-color: rgb(40, 70, 145);
+    border-radius: 5px;
+    padding: 15px 8px;
+    width: 180px;
+    position: relative;
+}
+.career .box1 .left .box::after {
+    content: "";
+    position: absolute;
+    top: 28px;
+    background-color: rgb(40, 70, 145);
+    height: 3px;
+    width: 36px;
+    left: -36px;
+}
+.career .box1 .left{
+    position: relative;
+}
+.career .box1 .left::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(40, 70, 145);
+    height: 60px;
+    width: 4px;
+    left: 0;
+    top: 38px;
+}
+.career .box1 .left .box::before {
+    content: "";
+    position: absolute;
+    top: 22px;
+    background-color: #660af0;
+    height: 16px;
+    width: 16px;
+    left: -51px;
+    border-color: #0000;
+    border-radius: 100%;
+    border: 2px solid #0000;
+}
+.career .box1 .left .box a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.career .box1 .right h5 {
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+}
+.career .box1 .right p {
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+}
+.Soft-Skills .title h2 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.Soft-Skills .title {
+    border-bottom: 1px solid #000;
+    margin-top: 20px;
+}
+.Soft-Skills ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.Soft-Skills ul li {
+    display: inline-block;
+    padding:8px;
+    margin: 10px 0px 0px;
+}
+.Soft-Skills ul li a {
+    text-decoration: none;
+    color: #ffff;
+    background-color: rgb(40, 70, 145);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 15px;
+}
+.Soft-Skills {
+    padding-top: 40px;
+}
+.Soft-Skills .button-list {
+   margin-top: 20px;
+}
+.Achievements .title {
+    border-bottom: 1px solid #000;
+    margin-top: 20px;
+}
+.Achievements .title h2 {
+    font-size: 25px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.Achievements ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: square;
+}
+.Achievements ul li {
+    display: block;
+    padding: 8px;
+}
+.Achievements ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* /////////////////////////////////mobile-responsive */
+
+@media screen and (max-width: 768px) { 
+    .portfolio-info .image-text {
+        width: 100%;
+    }
+    .portfolio-info .list-type {
+        width: 100%;
+    }
+    .portfolio-info .image-text .text h2 {
+        font-size: 20px;
+    }
+    .portfolio-info .image-text .text h5 {
+        font-size: 16px;
+    }
+    .education-details .left-right .left .edu-title .title h2 {
+        font-size: 20px;
+    }
+    .title h2 {
+        font-size: 20px !important;
+    }
+    .education-details .left-right .left .edu-title .list ul li h4 {
+        font-size: 14px;
+    }
+    .education-details .left-right .left .edu-title .list ul li h5 {
+        font-size: 14px;
+    }
+    .education-details .left-right .left .edu-title .list ul li h6 {
+        font-size: 14px;
+    }
+    .education-details .right .list-item ul li a {
+        font-size: 14px;
+    }
+    .tech-skill .item .first h4 {
+        font-size: 14px;
+    }
+    .education-details .left-right {
+        display: block;
+    }
+    .education-details .left-right .left {
+        width: 100%;
+    }
+    .education-details .left-right .right {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .tech-skill .second-icon-star {
+        width: 50%;
+    }
+    .tech-skill .item .first {
+        width: 50%;
+    }
+    .education-details .right {
+        padding-left: 0px;
+    }
+    /* .career .left {
+        width: 50% !important;
+    }
+    .career .right {
+        width: 50% !important;
+    } */
+    .career .box1 .left {
+        justify-content: start;
+    }
+    .career .box1 .left::after{
+        content: normal;
+    }
+    .career .box1 .left::before{
+        content: normal;
+    }
+    .career .box1 .left .box::before {
+        content: normal;
+    }
+    .career .box1 .left .box::after {
+        content: normal;
+    }
+}
